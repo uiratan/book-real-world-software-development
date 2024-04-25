@@ -19,8 +19,6 @@ public class BankTransactionAnalyzerProblematic {
         final List<String> lines = Files.readAllLines(path);
         double total = 0;
 
-        // 1 - What is the total profit and loss from a list of bank statements? 
-        // Is it positive or negative?
         for(final String line: lines) {
             final String[] columns = line.split(",");
             final double amount = Double.parseDouble(columns[1]);
@@ -29,7 +27,6 @@ public class BankTransactionAnalyzerProblematic {
         
         System.out.println("The total for all transactions is " + total);
 
-        // How many bank transactions are there in a particular month?
         total = 0;
         
         for (final String line : lines) {
