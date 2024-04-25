@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankTransactionAnalyzerSRP",
+            "request": "launch",
+            "mainClass": "com.rwsd.chapter02.BankTransactionAnalyzerSRP",
+            "projectName": "rwsd"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
