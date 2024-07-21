@@ -8,8 +8,13 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-
 public class BankTransactionAnalyzerProblematic {
+
+    // What is the total profit and loss from a list of bank statements? Is it positive or negative?
+// How many bank transactions are there in a particular month?
+// What are his top-10 expenses? 
+// Which category does he spend most of his money on?
+
 
     private static final String RESOURCES = "src/main/resources/";
     private static final  DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy");

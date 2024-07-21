@@ -26,3 +26,5 @@ Takeaways
 - A suite of automated tests increases confidence that your software is correct, makes it more robust forhanges, and helps program comprehension.
 - JUnit is a Java testing framework that lets you specify unit tests that verify the behavior of your methods and classes.
 - Given-When-Then is a pattern for setting up a test into three parts to help understand the tests you implement
+
+# Chap2
